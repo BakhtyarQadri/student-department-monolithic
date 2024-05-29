@@ -1,3 +1,9 @@
+# Features
+- Three layer architecture (controller, service, persistance)
+- Restful CRUD api's for "Student"
+- Basic validations
+- Centralize exception handling
+- DTO's
 # Endpoints
 
 ### POST - add a student <br>
