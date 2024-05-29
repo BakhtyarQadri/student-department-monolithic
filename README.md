@@ -1,19 +1,24 @@
 # Endpoints
 
-### POST - add a student - http://localhost:8080/students
+### POST - add a student <br>
+http://localhost:8080/students <br>
 {
     "name": "Shahryar",
     "email": "mshahryarqadri@gmail.com",
     "age": 20,
     "departmentId": 1
 }
-### GET - get all students - http://localhost:8080/students
-### GET - get a student by id - http://localhost:8080/students/1
-### PUT - update a student by id - http://localhost:8080/students/1
+### GET - get all students <br>
+http://localhost:8080/students
+### GET - get a student by id <br>
+http://localhost:8080/students/1
+### PUT - update a student by id <br>
+http://localhost:8080/students/1 <br>
 {
     "name": "Bakhtyar",
     "email": "bakhtyar@gmail.com",
     "age": 24,
     "departmentId": 2
 }
-### DELETE - delete a student by id - http://localhost:8080/students/1
+### DELETE - delete a student by id <br>
+http://localhost:8080/students/1
