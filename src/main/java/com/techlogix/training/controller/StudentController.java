@@ -1,8 +1,8 @@
-package com.techlogix.springboottraining.controller;
+package com.techlogix.training.controller;
 
-import com.techlogix.springboottraining.dto.StudentDto;
-import com.techlogix.springboottraining.exception.DataNotFoundException;
-import com.techlogix.springboottraining.service.StudentService;
+import com.techlogix.training.dto.StudentDto;
+import com.techlogix.training.exception.DataNotFoundException;
+import com.techlogix.training.service.StudentService;
 import jakarta.validation.Valid;
 import org.apache.coyote.BadRequestException;
 import org.springframework.beans.factory.annotation.Autowired;

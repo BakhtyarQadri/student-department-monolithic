@@ -1,11 +1,11 @@
-package com.techlogix.springboottraining.service;
+package com.techlogix.training.service;
 
-import com.techlogix.springboottraining.dto.StudentDto;
-import com.techlogix.springboottraining.exception.DataNotFoundException;
-import com.techlogix.springboottraining.model.Department;
-import com.techlogix.springboottraining.model.Student;
-import com.techlogix.springboottraining.repository.DepartmentRepo;
-import com.techlogix.springboottraining.repository.StudentRepo;
+import com.techlogix.training.dto.StudentDto;
+import com.techlogix.training.exception.DataNotFoundException;
+import com.techlogix.training.model.Department;
+import com.techlogix.training.model.Student;
+import com.techlogix.training.repository.DepartmentRepo;
+import com.techlogix.training.repository.StudentRepo;
 import org.apache.coyote.BadRequestException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

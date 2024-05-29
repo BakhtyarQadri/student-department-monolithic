@@ -1,6 +1,6 @@
-package com.techlogix.springboottraining;
+package com.techlogix.training;
 
-import com.techlogix.springboottraining.exception.DataNotFoundException;
+import com.techlogix.training.exception.DataNotFoundException;
 import org.apache.coyote.BadRequestException;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.MethodArgumentNotValidException;
