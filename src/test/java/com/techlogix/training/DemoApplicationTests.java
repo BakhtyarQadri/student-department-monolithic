@@ -1,10 +1,10 @@
-package com.techlogix.springboottraining;
+package com.techlogix.training;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringBootTrainingApplicationTests {
+class DemoApplicationTests {
 
 	@Test
 	void contextLoads() {

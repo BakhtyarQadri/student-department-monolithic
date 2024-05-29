@@ -1,4 +1,4 @@
-package com.techlogix.springboottraining.dto;
+package com.techlogix.training.dto;
 
 import jakarta.validation.constraints.*;
 import lombok.AllArgsConstructor;

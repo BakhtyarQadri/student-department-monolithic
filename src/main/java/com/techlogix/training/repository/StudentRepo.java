@@ -1,6 +1,6 @@
-package com.techlogix.springboottraining.repository;
+package com.techlogix.training.repository;
 
-import com.techlogix.springboottraining.model.Student;
+import com.techlogix.training.model.Student;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,12 +1,8 @@
-package com.techlogix.springboottraining.model;
+package com.techlogix.training.model;
 
 import jakarta.persistence.*;
-import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
-
-import java.util.List;
-import java.util.Set;
 
 @Entity
 @Getter

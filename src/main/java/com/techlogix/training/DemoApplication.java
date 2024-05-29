@@ -1,13 +1,13 @@
-package com.techlogix.springboottraining;
+package com.techlogix.training;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootTrainingApplication {
+public class DemoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootTrainingApplication.class, args);
+		SpringApplication.run(DemoApplication.class, args);
 	}
 
 }
