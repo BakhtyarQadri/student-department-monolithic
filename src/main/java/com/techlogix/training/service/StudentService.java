@@ -6,6 +6,7 @@ import com.techlogix.training.model.Department;
 import com.techlogix.training.model.Student;
 import com.techlogix.training.repository.DepartmentRepo;
 import com.techlogix.training.repository.StudentRepo;
+import lombok.RequiredArgsConstructor;
 import org.apache.coyote.BadRequestException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -14,12 +15,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Service
+@RequiredArgsConstructor
 public class StudentService {
 
-    @Autowired
-    private StudentRepo studentRepo;
-    @Autowired
-    private DepartmentRepo departmentRepo;
+    private final StudentRepo studentRepo;
+    private final DepartmentRepo departmentRepo;
 
     public String addStudent(StudentDto studentDto) throws DataNotFoundException, BadRequestException {
         Student existingStudent = studentRepo.findByEmail(studentDto.getEmail());
@@ -76,12 +76,6 @@ public class StudentService {
         student.setEmail(studentDto.getEmail());
         student.setAge(studentDto.getAge());
         student.setDepartment(department);
-        // Student student = new Student(
-        //      studentDto.getName(),
-        //      studentDto.getEmail(),
-        //      studentDto.getAge(),
-        //      department
-        // );
         return student;
     }
 
