@@ -46,6 +46,10 @@ public class StudentController {
     @ResponseStatus(HttpStatus.OK)
     private String updateStudent(@PathVariable Integer id, @RequestBody @Valid StudentDto studentDto) throws DataNotFoundException {
         return studentService.updateStudent(id, studentDto);
+
+        // String resp = studentService.updateStudent(id, studentDto);
+        // return new ResponseEntity<>(resp, HttpStatus.OK);
+        // return ResponseEntity.ok().body(resp);
     }
 
 }
